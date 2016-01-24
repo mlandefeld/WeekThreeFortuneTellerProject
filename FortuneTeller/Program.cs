@@ -10,6 +10,19 @@ namespace FortuneTeller
     {
         static void Main(string[] args)
         {
+            WeekThree.ProjectDay FortuneTeller = new WeekThree.ProjectDay();
+            while (true)
+            {
+                try
+                {
+                    FortuneTeller.Project();
+                    break;
+                }
+                catch (Exception e)
+                {
+
+                }
+            }
         }
     }
 }
